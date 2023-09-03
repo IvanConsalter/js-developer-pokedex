@@ -84,11 +84,20 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    cursor: pointer;
+}
+
+.pokemon__header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
 }
 
 .pokemon .number {
     color: #000;
-    opacity: .3;
+    opacity: .7;
     text-align: right;
     font-size: .625rem;
 }
